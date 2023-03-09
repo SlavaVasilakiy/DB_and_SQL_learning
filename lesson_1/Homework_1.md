@@ -33,14 +33,14 @@
 3) Выведем SELECT-запросом весь ассортимент товаров марки “Samsung”:
 
    ```MySQL
-   SELECT product_name, price, product_count FROM lesson1_table WHERE manufacturer LIKE 'Samsung';
+   SELECT product_name, price, product_count FROM lesson1_table WHERE manufacturer LIKE '%Samsung%';
    ```
 
 4) *С помощью SELECT-запроса с оператором LIKE / REGEXP найдём:
    * 1) Товары, в которых есть упоминание "Iphone"
    
    ```MySQL
-   SELECT product_name, price, product_count FROM lesson1_table WHERE product_name OR manufacturer LIKE 'iPhone';
+   SELECT product_name, price, product_count FROM lesson1_table WHERE product_name OR manufacturer LIKE '%iPhone%';
    ```
 
    ```MySQL
@@ -50,7 +50,7 @@
    * 2) Товары, в которых есть упоминание "Samsung"
 
    ```MySQL
-   SELECT product_name, price, product_count FROM lesson1_table WHERE product_name OR manufacturer LIKE 'Samsung';
+   SELECT product_name, price, product_count FROM lesson1_table WHERE product_name OR manufacturer LIKE '%Samsung%';
    ```
 
    ```MySQL
