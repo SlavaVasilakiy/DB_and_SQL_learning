@@ -12,9 +12,9 @@
 
 # Solution:
 
-1) Создаём БД vk, исполнив скрипт [_vk_db_creation.sql](lesson_2/_vk_db_creation.sql)
+1) Создаём БД vk, исполнив скрипт [_vk_db_creation.sql](_vk_db_creation.sql)
 
 ![VK_DB.jpg](VK_DB.jpg)
 
 2) Пишем скрипт, добавляющий новые таблицы (с перечнем полей, указанием индексов и внешних ключей) (CREATE TABLE)
- * [Скрипт](lesson_2/_songs_script.sql)
+ * [Скрипт](_songs_script.sql)
