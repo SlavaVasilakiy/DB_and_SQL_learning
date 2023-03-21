@@ -25,3 +25,4 @@
 ![task_4.jpg](task_4.jpg)
 
 5) Скрипт --> [ТЫК](_task_5_script_.sql) <br>
+![task_5.jpg](task_5.jpg)
