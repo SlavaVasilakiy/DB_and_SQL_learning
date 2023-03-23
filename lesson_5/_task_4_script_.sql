@@ -1,12 +1,12 @@
 WITH cte AS (
 	SELECT 
-		COUNT(*) as cnt,
+		COUNT(*) as news_count,
 		user_id 
 	FROM media 
 	GROUP BY user_id
 )
 SELECT 
-	cnt,
+	news_count,
 	user_id,
 	email
 FROM cte
